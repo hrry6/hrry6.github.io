@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font -->
+
+    <!-- End Font -->
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- End CSS-->
+
+    <title>Main Web</title>
+  </head>
+  <body>
+
+    <!-- Song -->
+    <iframe style="display: none;" src="https://www.youtube.com/embed/AMjPfyGKeFk?autoplay=1" ></iframe>
+    <!-- End Song -->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" data-aos="fade-down">
+      <div class="container" >
+        <h1 class="navbar-brand">Main Web</h1>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+            <a class="nav-link active" href="#About">About</a>
+            <a class="nav-link active" href="#Developer">Developer</a>
+            <a class="nav-link active" href="#Post">Post</a>
+            <a class="nav-link active" href="#Coment">Coment</a>
+           </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Nav -->
+
+    <!-- Image -->
+    <div class="jumbotron jumbotron-fluid gambar" id="Home">
+      <div class="container">
+        <h1 class="display-4" data-aos="fade-down" data-aos-delay="1000">Welcome</h1>
+      </div>
+    </div>
+    <!-- End Image -->
+
+    <!-- About -->
+    <div class="jumbotron jumbotron-fluid tentang" id="About">
+      <div class="container">
+        <h1 class="display-4" data-aos="fade-right">About</h1>
+        <p data-aos="fade-left" data-aos-delay="500">This website is a personal website created to hone my programming skills, in the future this website will have some simple projects that will be published in the posting section.Every comment from you means a lot so that in the future I can become a better programmer. This website is accessible to anyone, and you can use all the projects on this website for free.</p>
+      </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Developer -->
+    <div class="jumbotron jumbotron-fluid pengembang" id="Developer">
+      <div class="container">
+        <h1 class="display-4"data-aos="flip-left">Developer</h1>
+        <img src="Assets/logo-web.png" class="rounded-circle" alt="" data-aos="flip-up" data-aos-delay="50">
+        <p data-aos="flip-right" data-aos-delay="100">Hi guys my name is Harry, I am the one who created this website. I was born in 2006 and I have loved programming since 8th grade of junior high school. At the time this website was created I was 15 years old. My hobbies are programming and playing games.</p>
+      </div>
+    </div>
+    <!-- End Developer -->
+
+    <!-- Post -->
+    <div class="jumbotron jumbotron-fluid post" id="Post">
+      <div class="container">
+        <h1 class="display-4" data-aos="zoom-in">Post</h1>
+        <h2 data-aos="zoom-in-up" data-aos-delay="50">Post available soon</h2>
+      </div>
+    </div>
+    <!-- End Post -->
+
+    <!-- Coment -->
+    <div class="jumbotron jumbotron-fluid komen" id="Coment">
+      <div class="container">
+        <h1 class="display-4" data-aos="zoom-in-down">Coment</h1>
+        <form name="submit-to-google-sheet">
+          <div class="mb-3">
+            <label class="form-label" data-aos="zoom-in-left" data-aos-delay="50">Name</label>
+            <input type="text" class="form-control" data-aos="zoom-in-left" data-aos-delay="100" name="name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label" data-aos="zoom-in-right" data-aos-delay="150">Massage</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" data-aos="zoom-in-right" data-aos-delay="200" name="massage"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" data-aos="flip-up" data-aos-delay="250">Submit</button>
+        </form>
+      </div>
+    </div>
+    <!-- End Coment -->
+
+    <!-- Footer -->
+    <footer>
+    <div class="jumbotron jumbotron-fluid foot">
+      <div class="container dalam-footer">
+        <h1 data-aos="fade-down">Build with</h1>
+        <p>Html</p>
+        <p>CSS :  Bootstrap</p>
+        <p>Javascript :  AOS</p>
+      </div>
+    </div>
+  </footer>
+
+    <!-- End Footer -->    
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="code.js"></script>
+    <!-- End Javascript -->
+
+  </body>
+</html>

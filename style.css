@@ -1,0 +1,187 @@
+@font-face {
+    font-family: bourbon;
+    src: url(Assets/BourbonGrotesque-Regular.otf);
+}
+@font-face {
+    font-family: moon;
+    src: url(Assets/Moon\ Bold.otf);
+}
+@font-face {
+    font-family: cunia;
+    src: url(Assets/Cunia.ttf);
+}
+@font-face {
+    font-family: mosk;
+    src: url(Assets/Mosk\ Bold\ 700.ttf);
+}
+@font-face {
+    font-family: aquatico;
+    src: url(Assets/Aquatico-Regular.otf);
+}
+@font-face {
+    font-family: qanelas;
+    src: url(Assets/QanelasSoftDEMO-ExtraBold.otf);
+}
+@media (max-width:700px){
+    h1{
+        font-size: large;
+    }
+    p, label{
+        font-size: medium;
+    }
+    .gambar{
+        height: 360px !important;
+    }
+    .gambar h1 {
+        font-size: 55px !important;
+    }
+    .tentang {
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+
+    }
+    .tentang p{
+        padding-top: 45px !important;
+    }
+    .pengembang{
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+
+    }
+    .pengembang img{
+        height: 150px !important;
+        width: 150px !important;
+    }
+    .pengembang p{
+        margin-top: 60px !important;
+    }
+    .pengembang h1{
+        padding-bottom: 60px !important;
+    }
+    .post{
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+    .post h2{
+        padding-top: 60px !important;
+    }
+    .komen{
+        padding-bottom: 60px !important;
+    }
+    .komen h1{
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+    .foot{
+        padding-bottom: 60px !important;
+    }
+    .foot h1{
+        font-size: 40px !important;
+        padding-top: 60px !important;
+        padding-bottom: 60px !important;
+    }
+
+}
+h1{
+    font-family: cunia;
+    font-size: 60px;
+}
+p, label{
+    font-family: aquatico;
+    font-size: 18px;
+}
+.navbar {
+    height: 60px;
+} 
+.navbar .container h1 {
+    font-size: 30px;
+    font-family: bourbon;
+}
+.navbar-nav a {
+    font-size: 18px;
+    font-family: moon;
+    width: 100% ;
+    background-color: white;
+}
+.gambar {
+    height: 580px;
+    background-image: url("https://drive.google.com/uc?export=view&id=1aAABpCvRWCDS1ik9QqFUNqmgUNxrLQFS");
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.gambar h1 {
+    font-size: 80px;
+    font-family: qanelas;
+}
+.tentang {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #161b1f;
+    color: white;
+}
+.tentang p{
+    padding-top: 65px;
+}
+.tentang h1{
+    color: #fccf14;
+}
+.pengembang{
+    padding-top: 150px;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 150px;
+    background-color: #131418;
+    color:white;
+}
+.pengembang img{
+    height: 200px;
+    width: 200px;
+    border-style: solid
+}
+.pengembang p{
+    margin-top: 90px;
+}
+.pengembang h1{
+    color: #4adede;
+    padding-bottom: 100px;
+}
+.post{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
+    background-color:#02060a;
+}
+.post h1{
+    color:#f5751d; 
+}
+.post h2{
+    padding-top: 115px;
+    font-family: moon;
+    color: #e42020;
+}
+.komen{
+    color: white;
+    background-color: rgb(8, 8, 8);
+    padding-bottom: 150px;
+}
+.komen h1{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    text-align: right;
+    color:rgb(148, 148, 148);
+}
+.foot{
+    color: white;
+    background-color: black;
+    padding-bottom: 50px;
+}
+.foot h1{
+    font-family: mosk;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
