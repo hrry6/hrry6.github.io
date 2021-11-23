@@ -38,7 +38,6 @@
     .tentang {
         padding-top: 60px !important;
         padding-bottom: 60px !important;
-
     }
     .tentang p{
         padding-top: 45px !important;
@@ -115,6 +114,10 @@ p, label{
 .gambar h1 {
     font-size: 80px;
     font-family: qanelas;
+}
+.tombol{
+    text-align: right;
+    margin-bottom: 65px;
 }
 .tentang {
     padding-top: 150px;
