@@ -65,8 +65,8 @@ const Projects = () => {
                 transition={{duration:0.5}}
                 className="w-full lg:w-1/4">
                     <img src={data.image}
-                    width={150}
-                    height={150} alt="Gambar Project"
+                    width={200}
+                    height={200} alt="Gambar Project"
                     className='rounded mb-6' />
                 </motion.div>
                 <motion.div

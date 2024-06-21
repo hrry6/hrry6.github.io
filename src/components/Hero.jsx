@@ -21,7 +21,7 @@ const Hero = () => {
                     variants={container(0, -100, 0.5)}
                     initial="hidden"
                     animate="visible"
-                    className='pb-16 text-5xl font-thin tracking-tighter lg:mt-15 lg:text-8xl'>Harry Siloam S</motion.h1>
+                    className='pb-5 md:pb-16 text-5xl font-thin tracking-tighter lg:mt-15 lg:text-8xl'>Harry Siloam S</motion.h1>
                     <motion.span
                     variants={container(0.5, -100, 0.5)}
                     initial="hidden"
@@ -31,7 +31,7 @@ const Hero = () => {
                     variants={container(1, -100, 0.5)}
                     initial="hidden"
                     animate="visible" 
-                    className='my-2 max-w-xl py-6 text-base font-light tracking-tighter'>Haii, perkenalkan saya Harry 😎. Saya adalah seorang Full Stack Developer lulusan SMKN 1 Kota Bekasi dengan jurusan Rekayasa Perangkat Lunak. Hobi saya adalah membuat website dengan Framewrok seperti React dan Laravel</motion.p>
+                    className='my-2 max-w-xl py-6 text-sm md:text-base font-light tracking-tighter'>Haii, perkenalkan saya Harry 😎. Saya adalah seorang Full Stack Developer lulusan SMKN 1 Kota Bekasi dengan jurusan Rekayasa Perangkat Lunak. Hobi saya adalah membuat website dengan Framewrok seperti React dan Laravel</motion.p>
                 </div>
             </div>
             <div className='w-full lg:w-1/2 lg:pb-8'>
@@ -43,7 +43,7 @@ const Hero = () => {
                     className='rounded-xl border-[10px] border-white bg-white'>
                         <img
                         src={photo}
-                        alt="Photo Profile" className='lg:h-[400px] lg:w-[270px] h-[300px] w-[250px] rounded-xl' />
+                        alt="Photo Profile" className='lg:h-[400px] lg:w-[270px] md:h-[300px] md:w-[200px] h-[200px] w-[150px] rounded-xl' />
                     </motion.div>
                 </div>
             </div>
