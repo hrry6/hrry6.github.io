@@ -2,10 +2,12 @@ import React from 'react'
 import { RiReactjsLine } from 'react-icons/ri'
 import { FaNodeJs } from 'react-icons/fa'
 import { FaPhp } from "react-icons/fa";
+import { FaDocker } from "react-icons/fa";
+import { FcLinux } from "react-icons/fc";
 import { FaLaravel } from "react-icons/fa";
-import { SiMysql } from "react-icons/si";
-import { RiNextjsFill } from "react-icons/ri";
-import { RiFlutterFill } from "react-icons/ri";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { SiSpringboot } from "react-icons/si";
+import { FaGolang } from "react-icons/fa6";
 import { motion } from 'framer-motion';
 
 
@@ -41,49 +43,49 @@ const Technologies = () => {
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <RiReactjsLine className='text-6xl text-cyan-400'/>
+                <SiSpringboot className='text-6xl text-green-500'/>
             </motion.div>
             <motion.div
             variants={iconWave(4)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <RiNextjsFill className='text-6xl'/>
+                <FaGolang className='text-6xl text-cyan-400'/>
             </motion.div>
             <motion.div
             variants={iconWave(2.5)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <FaNodeJs className='text-6xl text-emerald-500'/>
+              <FaNodeJs className='text-6xl text-emerald-500'/>
             </motion.div>
             <motion.div
             variants={iconWave(4)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <RiFlutterFill className='text-6xl text-cyan-400'/>
+              <RiReactjsLine className='text-6xl text-cyan-400'/>
             </motion.div>
             <motion.div
             variants={iconWave(2.5)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <FaPhp className='text-6xl text-blue-600'/>
+                <FaDocker className='text-6xl text-blue-600'/>
             </motion.div>
             <motion.div
             variants={iconWave(4)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <FaLaravel className='text-6xl text-red-600'/>
+                <FcLinux className='text-6xl'/>
             </motion.div>
             <motion.div
             variants={iconWave(2.5)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
-                <SiMysql className='text-6xl text-orange-500'/>
+                <BiLogoPostgresql className='text-6xl text-blue-500'/>
             </motion.div>
         </motion.div>
     </div>

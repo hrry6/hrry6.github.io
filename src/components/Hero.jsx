@@ -31,7 +31,7 @@ const Hero = () => {
                     variants={container(1, -100, 0.5)}
                     initial="hidden"
                     animate="visible" 
-                    className='my-2 max-w-xl py-6 text-sm md:text-base font-light tracking-tighter'>Haii, perkenalkan saya Harry 😎. Saya adalah seorang Full Stack Developer lulusan SMKN 1 Kota Bekasi dengan jurusan Rekayasa Perangkat Lunak. Hobi saya adalah membuat website dengan Framewrok seperti React dan Laravel</motion.p>
+                    className='my-2 max-w-xl py-6 text-sm md:text-base font-light tracking-tighter'>Hi, I'm Harry ✌️. A Computer Science student at BINUS University majoring in Software Engineering, bridging vocational roots from SMKN 1 Kota Bekasi with modern system-level development. I build robust, high-performance architectures—ranging from containerized  backends and edge AI monitoring systems to full-stack applications.</motion.p>
                 </div>
             </div>
             <div className='w-full lg:w-1/2 lg:pb-8'>
