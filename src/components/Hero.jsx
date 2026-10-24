@@ -1,6 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import photo from '../assets/Photo1.jpg'
+import CV from '../assets/Harry_CV.pdf'
 
 const container = (delay, xValue, duration ) => ({
     hidden: {x:xValue, opacity:0},
@@ -32,6 +33,18 @@ const Hero = () => {
                     initial="hidden"
                     animate="visible" 
                     className='my-2 max-w-xl py-6 text-sm md:text-base font-light tracking-tighter'>Hi, I'm Harry ✌️. A Computer Science student at BINUS University majoring in Software Engineering, bridging vocational roots from SMKN 1 Kota Bekasi with modern system-level development. I build robust, high-performance architectures—ranging from containerized  backends and edge AI monitoring systems to full-stack applications.</motion.p>
+                    <motion.a
+                        href={CV} 
+                        download="Harry_Siloam_CV.pdf"
+                        variants={container(1.5, -100, 0.5)}
+                        initial="hidden"
+                        animate="visible"
+                        className="my-6 inline-block rounded-full bg-gradient-to-r from-slate-500 to-purple-500 p-[2px] shadow-lg transition-all hover:scale-105 active:scale-95"
+                    >
+                      <span className="flex h-full w-full items-center justify-center rounded-full bg-neutral-950 px-8 py-3 text-sm font-medium text-white transition-colors hover:bg-transparent">
+                          Download CV
+                      </span>
+                    </motion.a>
                 </div>
             </div>
             <div className='w-full lg:w-1/2 lg:pb-8'>
