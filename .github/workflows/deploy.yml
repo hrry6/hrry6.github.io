@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '24' # Menggunakan Node 24 agar selaras dengan runner GitHub terbaru
+          node-version: '20' # Menggunakan Node 24 agar selaras dengan runner GitHub terbaru
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
