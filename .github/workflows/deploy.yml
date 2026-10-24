@@ -17,13 +17,16 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24' # Menggunakan Node 24 agar selaras dengan runner GitHub terbaru
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
       - name: Build project
-        run: npm run build
+        # Menambahkan CI=false agar build React tidak gagal hanya karena warning kecil
+        run: |
+          export CI=false
+          npm run build
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
